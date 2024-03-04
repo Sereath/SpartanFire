@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = SpartanFire.MODID, name = SpartanFire.NAME, version = SpartanFire.VERSION,
-        dependencies="required-after:iceandfire@[1.9.1,);required-after:spartanweaponry@[beta 1.3.0,);required-after:llibrary@[1.7.19,)")
+        dependencies="required-after:iceandfire@[1.9.1-1.3.2,);required-after:spartanweaponry@[1.5.3,);required-after:llibrary@[1.7.20,)")
 public class SpartanFire
 {
     public static final String MODID = "spartanfire";

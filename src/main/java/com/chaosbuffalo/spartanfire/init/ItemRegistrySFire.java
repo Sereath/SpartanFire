@@ -35,12 +35,16 @@ public class ItemRegistrySFire {
     public static final String DRAGONBONE = "dragonbone";
     public static final String FIRE_DRAGONBONE = "fire_dragonbone";
     public static final String ICE_DRAGONBONE = "ice_dragonbone";
+
+    public static final String LIGHTNING_DRAGONBONE = "lightning_dragonbone";
     public static final String JUNGLE = "jungle";
     public static final String JUNGLE_VENOM = "jungle_venom";
     public static final String DESERT = "desert";
     public static final String DESERT_VENOM = "desert_venom";
     public static final String FIRE_DRAGONSTEEL = "fire_dragonsteel";
     public static final String ICE_DRAGONSTEEL = "ice_dragonsteel";
+
+    public static final String LIGHTNING_DRAGONSTEEL = "lightning_dragonsteel";
 
     private static final Set<Item> ALL_ITEMS = new HashSet<>();
 
@@ -52,6 +56,10 @@ public class ItemRegistrySFire {
                 Utils.spartanMatFromToolMat(FIRE_DRAGONBONE, IafItemRegistry.fireBoneTools,
                 9867904, 14999238, "ingotDragonbone"),
                 new FireSwordWeaponProperty(FIRE_DRAGONBONE, SpartanFire.MODID)));
+        MATERIALS_TO_REGISTER.add(new IAFMatConverter(LIGHTNING_DRAGONBONE,
+                Utils.spartanMatFromToolMat(LIGHTNING_DRAGONBONE, IafItemRegistry.lightningBoneTools,
+                        9867904, 14999238, "ingotDragonbone"),
+                new LightningSwordWeaponProperty(LIGHTNING_DRAGONBONE, SpartanFire.MODID)));
         MATERIALS_TO_REGISTER.add(new IAFMatConverter(ICE_DRAGONBONE,
                 Utils.spartanMatFromToolMat(ICE_DRAGONBONE, IafItemRegistry.iceBoneTools,
                         9867904, 14999238, "ingotDragonbone"),
@@ -87,6 +95,10 @@ public class ItemRegistrySFire {
                 Utils.spartanMatFromToolMat(FIRE_DRAGONSTEEL, IafItemRegistry.dragonsteel_fire_tools,
                         9867904, 14999238, "ingotFireDragonsteel"),
                 new FireDragonsteelWeaponProperty(FIRE_DRAGONSTEEL, SpartanFire.MODID)));
+        MATERIALS_TO_REGISTER.add(new IAFMatConverter(LIGHTNING_DRAGONSTEEL,
+                Utils.spartanMatFromToolMat(LIGHTNING_DRAGONSTEEL, IafItemRegistry.dragonsteel_lightning_tools,
+                        9867904, 14999238, "ingotLightningDragonsteel"),
+                new LightningDragonsteelWeaponProperty(LIGHTNING_DRAGONSTEEL, SpartanFire.MODID)));
 
     }
 

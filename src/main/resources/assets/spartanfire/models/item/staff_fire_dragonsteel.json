@@ -1,1 +1,1 @@
-{"textures": {"layer0": "spartanfire:items/quarterstaff_dragonsteel_fire"}, "parent": "spartanweaponry:item/staff"}
+{"parent": "spartanweaponry:item/staff", "textures": {"layer0": "spartanfire:items/quarterstaff_dragonsteel_fire"}}

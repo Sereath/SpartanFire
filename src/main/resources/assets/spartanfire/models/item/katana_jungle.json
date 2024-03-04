@@ -1,1 +1,1 @@
-{"textures": {"layer0": "spartanfire:items/katana_jungle"}, "parent": "spartanweaponry:item/katana_wood"}
+{"parent": "spartanweaponry:item/katana_wood", "textures": {"layer0": "spartanfire:items/katana_jungle"}}
