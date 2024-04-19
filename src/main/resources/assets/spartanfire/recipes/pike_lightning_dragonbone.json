@@ -1,0 +1,1 @@
+{"type": "forge:ore_shapeless", "ingredients": [{"item": "iceandfire:lightning_dragon_blood", "data": 0}, {"item": "spartanfire:pike_dragonbone", "data": 0}], "result": {"item": "spartanfire:pike_lightning_dragonbone", "data": 0, "count": 1}}
