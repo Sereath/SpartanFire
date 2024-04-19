@@ -1,1 +1,1 @@
-{"pattern": ["i", "p", "p"], "conditions": [], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:pike_dragonbone"}, "key": {"i": {"ore": "ingotDragonbone", "type": "forge:ore_dict"}, "p": {"item": "spartanfire:witherbone_pole", "data": 0}}}
+{"type": "minecraft:crafting_shaped", "pattern": ["i", "p", "p"], "key": {"p": {"item": "spartanfire:witherbone_pole", "data": 0}, "i": {"type": "forge:ore_dict", "ore": "ingotDragonbone"}}, "result": {"item": "spartanfire:pike_dragonbone"}, "conditions": []}

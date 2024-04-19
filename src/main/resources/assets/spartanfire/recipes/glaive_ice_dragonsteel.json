@@ -1,1 +1,1 @@
-{"pattern": [" i ", " i ", "ip "], "conditions": [], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:glaive_ice_dragonsteel"}, "key": {"i": {"ore": "ingotIceDragonsteel", "type": "forge:ore_dict"}, "p": {"item": "spartanfire:witherbone_pole", "data": 0}}}
+{"type": "minecraft:crafting_shaped", "pattern": [" i ", " i ", "ip "], "key": {"p": {"item": "spartanfire:witherbone_pole", "data": 0}, "i": {"type": "forge:ore_dict", "ore": "ingotIceDragonsteel"}}, "result": {"item": "spartanfire:glaive_ice_dragonsteel"}, "conditions": []}

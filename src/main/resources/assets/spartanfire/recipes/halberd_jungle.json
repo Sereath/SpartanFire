@@ -1,1 +1,1 @@
-{"pattern": [" i", "ip", "i "], "conditions": [], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:halberd_jungle"}, "key": {"i": {"item": "iceandfire:myrmex_jungle_chitin", "data": 0}, "p": {"item": "spartanfire:witherbone_pole", "data": 0}}}
+{"type": "minecraft:crafting_shaped", "pattern": [" i", "ip", "i "], "key": {"p": {"item": "spartanfire:witherbone_pole", "data": 0}, "i": {"item": "iceandfire:myrmex_jungle_chitin", "data": 0}}, "result": {"item": "spartanfire:halberd_jungle"}, "conditions": []}

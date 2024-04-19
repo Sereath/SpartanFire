@@ -1,1 +1,1 @@
-{"pattern": ["i", "h"], "conditions": [], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:dagger_fire_dragonsteel"}, "key": {"i": {"ore": "ingotFireDragonsteel", "type": "forge:ore_dict"}, "h": {"item": "spartanfire:witherbone_handle", "data": 0}}}
+{"type": "minecraft:crafting_shaped", "pattern": ["i", "h"], "key": {"h": {"item": "spartanfire:witherbone_handle", "data": 0}, "i": {"type": "forge:ore_dict", "ore": "ingotFireDragonsteel"}}, "result": {"item": "spartanfire:dagger_fire_dragonsteel"}, "conditions": []}

@@ -34,9 +34,11 @@ iceDragonSteelMat = MatDefinition('ice_dragonsteel',
 fireDragonSteelMat = MatDefinition('fire_dragonsteel',
   {"type": "forge:ore_dict", "ore": "ingotFireDragonsteel"},
   [])
+lightningDragonSteelMat = MatDefinition('lightning_dragonsteel',
+  {"type": "forge:ore_dict", "ore": "ingotLightningDragonsteel"}, [])
 
 mats = [dragonMat, desertMat, jungleMat, desertPoisonMat, junglePoisonMat,
-        iceDragonSteelMat, fireDragonSteelMat]
+        iceDragonSteelMat, fireDragonSteelMat, lightningDragonSteelMat]
 
 class RecipePattern(object):
 

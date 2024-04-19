@@ -1,1 +1,1 @@
-{"pattern": [" i ", " i ", "ihi"], "conditions": [], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:longsword_dragonbone"}, "key": {"i": {"ore": "ingotDragonbone", "type": "forge:ore_dict"}, "h": {"item": "spartanfire:witherbone_handle", "data": 0}}}
+{"type": "minecraft:crafting_shaped", "pattern": [" i ", " i ", "ihi"], "key": {"h": {"item": "spartanfire:witherbone_handle", "data": 0}, "i": {"type": "forge:ore_dict", "ore": "ingotDragonbone"}}, "result": {"item": "spartanfire:longsword_dragonbone"}, "conditions": []}

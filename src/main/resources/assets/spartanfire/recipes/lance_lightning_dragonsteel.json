@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["i", "p", "h"], "key": {"p": {"item": "spartanfire:witherbone_pole", "data": 0}, "h": {"item": "spartanfire:witherbone_handle", "data": 0}, "i": {"type": "forge:ore_dict", "ore": "ingotLightningDragonsteel"}}, "result": {"item": "spartanfire:lance_lightning_dragonsteel"}, "conditions": []}

@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": [" i ", "iii", "ihi"], "key": {"h": {"item": "spartanfire:witherbone_handle", "data": 0}, "i": {"type": "forge:ore_dict", "ore": "ingotLightningDragonsteel"}}, "result": {"item": "spartanfire:greatsword_lightning_dragonsteel"}, "conditions": []}

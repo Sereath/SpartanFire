@@ -1,1 +1,1 @@
-{"pattern": ["iww", "w  ", "w  "], "conditions": [], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:boomerang_ice_dragonsteel"}, "key": {"i": {"ore": "ingotIceDragonsteel", "type": "forge:ore_dict"}, "w": {"ore": "plankWood", "type": "forge:ore_dict"}}}
+{"type": "minecraft:crafting_shaped", "pattern": ["iww", "w  ", "w  "], "key": {"w": {"type": "forge:ore_dict", "ore": "plankWood"}, "i": {"type": "forge:ore_dict", "ore": "ingotIceDragonsteel"}}, "result": {"item": "spartanfire:boomerang_ice_dragonsteel"}, "conditions": []}
