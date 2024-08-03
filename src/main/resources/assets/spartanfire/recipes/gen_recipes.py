@@ -171,6 +171,15 @@ patterns["staff"] = RecipePattern(
      " i ",
      "   "],
     POLE_ENTRY, (1, 1))
+patterns["scythe"] = RecipePattern(
+    ["ii ",
+     "  i",
+     " p "],
+    POLE_ENTRY, (0, 0))
+patterns["parrying_dagger"] = RecipePattern(
+    [" i",
+     "ih"],
+     HAFT_ENTRY, (0, 1))
 
 def gen_traditional_recipe_for_weapon(weapon_name, mat_definition, pattern, mod_name):
     pattern_dict = pattern.keys.copy()
@@ -240,7 +249,7 @@ ALL_WEAPONS = ['katana', 'greatsword', 'longsword', 'saber', 'rapier',
                 'spear', 'dagger', 'pike', 'lance', 'halberd', 'warhammer',
                 'throwing_axe', 'hammer', 'throwing_knife', 'longbow',
                 'crossbow', 'javelin', 'battleaxe', 'mace', 'boomerang',
-                'staff', 'glaive']
+                'staff', 'glaive', 'scythe', 'parrying_dagger']
 
 def gen_recipe_for_single_item_transform(start_mod, result_mod, 
     start_weapon, result_weapon, item, start_material, result_material, start_data, result_data, item_data):

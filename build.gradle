@@ -41,7 +41,7 @@ repositories {
 
 dependencies {
     deobfCompile 'curse.maven:ice_and_fire_rotn-457668:5035573'
-    deobfCompile "curse.maven:spartan_weaponry-278141:4467344"
+    deobfCompile "curse.maven:spartan_weaponry-278141:5564836"
     deobfCompile "curse.maven:llibrary-243298:3116493"
 }
 

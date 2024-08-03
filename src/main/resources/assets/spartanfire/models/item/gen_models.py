@@ -169,6 +169,8 @@ for mat_name, texture_name in mat_names:
     gen_simple_item_model(mat_name, "battleaxe", MOD_NAME, texture_name)
     gen_quarterstaff_model(mat_name, "staff", MOD_NAME, texture_name)
     gen_simple_item_model(mat_name, "glaive", MOD_NAME, texture_name)
+    gen_simple_item_model(mat_name, "scythe", MOD_NAME, texture_name)
+    gen_simple_item_model(mat_name, "parrying_dagger", MOD_NAME, texture_name)
     gen_longbow(mat_name, MOD_NAME, texture_name)
     gen_crossbow(mat_name, MOD_NAME, texture_name)
   

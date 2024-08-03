@@ -345,8 +345,21 @@ public class ItemRegistrySFire {
                 ModelRenderRegistrySFire.addItemToRegistry(glaive, "glaive_" + mat.material.getUnlocName());
                 item_set.add(glaive);
             }
-            if (ConfigHandler.enableExperimentalWeapons && !ConfigHandler.disableParryingDagger){
-                //empty method for now till a create parrying dagger method is created
+            if(!ConfigHandler.disableScythe) {
+                Item scythe = SpartanWeaponryAPI.createScythe(mat.material,
+                                                              SpartanFire.MODID,
+                                                              IceAndFire.TAB_ITEMS,
+                                                              mat.properties.toArray(new WeaponProperty[0]));
+                ModelRenderRegistrySFire.addItemToRegistry(scythe, "scythe_" + mat.material.getUnlocName());
+                item_set.add(scythe);
+            }
+            if (!ConfigHandler.disableParryingDagger){
+                Item parry_dagger = SpartanWeaponryAPI.createParryingDagger(mat.material,
+                                                                            SpartanFire.MODID,
+                                                                            IceAndFire.TAB_ITEMS,
+                                                                            mat.properties.toArray(new WeaponProperty[0]));
+                ModelRenderRegistrySFire.addItemToRegistry(parry_dagger, "parrying_dagger_" + mat.material.getUnlocName());
+                item_set.add(parry_dagger);
             }
         }
         for (Item it : item_set){

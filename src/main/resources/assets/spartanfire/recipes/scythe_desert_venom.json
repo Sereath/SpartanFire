@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["ti ", "  i", " p "], "key": {"p": {"item": "spartanfire:witherbone_pole", "data": 0}, "t": {"item": "iceandfire:myrmex_stinger", "data": 0}, "i": {"item": "iceandfire:myrmex_desert_chitin", "data": 0}}, "result": {"item": "spartanfire:scythe_desert_venom"}, "conditions": []}
